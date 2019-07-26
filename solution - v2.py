@@ -32,7 +32,7 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     # get user input for day of week (all, monday, tuesday, ... sunday)
     
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some US bikeshare data! It will be lots of fun!')
     
     month_dict = {
         'january' : 1,
