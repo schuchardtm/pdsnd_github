@@ -61,7 +61,7 @@ def get_filters():
         valid_cities = ['chicago', 'washington', 'new york city']
         city = input("Which city would you like to explore? Chicago, New York City, and Washington are your only options! ").lower()
         if city not in valid_cities:
-            print('Dude come on, enter one of the cities in the list. Spelling actually matters.')
+            print('Dude/dudette come on, enter one of the cities in the list. Spelling actually matters.')
             continue
         else:
             break
