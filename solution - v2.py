@@ -61,7 +61,7 @@ def get_filters():
         valid_cities = ['chicago', 'washington', 'new york city']
         city = input("Which city would you like to explore? Chicago, New York City, and Washington are your only options! ").lower()
         if city not in valid_cities:
-            print('Dude come on, enter one of the cities in the list. Spelling actually matters')
+            print('Dude come on, enter one of the cities in the list. Spelling actually matters.')
             continue
         else:
             break
@@ -71,7 +71,7 @@ def get_filters():
         valid_month = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
         month_name = input("Which month would you like to explore? You can enter all, or a specific month from January to June ").lower()
         if month_name not in valid_month:
-            print('Seriously? - Stop being stupid and enter a real month. Like I told you, spelling actually matters')
+            print('Seriously? - Stop being stupid and enter a real month. Like I told you, spelling actually matters.')
             continue
         else:
             month = month_dict[month_name]
