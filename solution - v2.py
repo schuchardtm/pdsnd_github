@@ -136,7 +136,7 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays summary statistics on the most frequent times of travel."""
     
     if len(df) == 0:
         print('There were no riders in {} during your selected time frame.'.format(city.title()))
